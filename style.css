@@ -35,10 +35,16 @@ table{
 
 td{
     border: 1px solid orange;
+    text-align: center;
+    color: white;
 }
 
 th{
     background-color: #C3601D ;
+    color: #786254;
+    text-align: center;
+    width: 100px;
+    border:1px solid orange;
 }
 nav ul{
     width: 100%;
