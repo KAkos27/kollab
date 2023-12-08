@@ -2,6 +2,8 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    width:70%;
+    margin:auto;
 }
 header{
     background-color: #DC5900;
@@ -33,4 +35,20 @@ td{
 
 th{
     background-color: #C3601D ;
+}
+
+@media (max-width:400px) {
+    main{
+        grid-template-columns: 1fr;
+    }
+    header{
+        grid-column: 1;
+    }
+    footer{
+        grid-column: 1;
+    }
+    nav{
+        grid-row:2;
+    }
+
 }
