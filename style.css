@@ -27,6 +27,7 @@ nav{
     background-color: #C3601D;
 }
 footer{
+    text-align: center;
     background-color: #DC5900;
     grid-column: 1/3;
     padding: 20px;
