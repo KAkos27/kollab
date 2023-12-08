@@ -2,6 +2,8 @@ main{
     background-color: red;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    width:70%;
+    margin:auto;
 }
 header{
     background-color: green;
