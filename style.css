@@ -12,6 +12,7 @@ main {
 }
 body {
   background-color: #786254;
+  color: white;
 }
 header {
   background-color: #dc5900;
@@ -21,6 +22,7 @@ header {
 article {
   background-color: #aa6639;
   max-height: 100%;
+  padding: 1em;
 }
 nav {
   background-color: #c3601d;
@@ -42,7 +44,7 @@ td {
 }
 th {
   background-color: #c3601d;
-  color: #786254;
+  color: #b9b6b5;
   text-align: center;
   width: 100px;
   border: 1px solid orange;
@@ -58,8 +60,8 @@ nav ul li {
 nav ul li a {
   text-align: center;
   text-decoration: none;
-  color: black;
   padding: 1em;
+  color: white;
 }
 nav ul li a:hover {
   background-color: #786254;
@@ -81,6 +83,11 @@ nav ul li a:hover {
     grid-row: 2;
   }
 }
+
+#kepeslap{
+    padding: 1em;
+}
+
 img{
     width: 60%;
     margin-left: auto;
