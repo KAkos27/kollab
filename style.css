@@ -1,90 +1,83 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-main{
-    font-family: Arial, Helvetica, sans-serif;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    width:70%;
-    margin:auto;
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  width: 70%;
+  margin: auto;
 }
-
-body{
-    background-color: #786254;
+body {
+  background-color: #786254;
 }
-header{
-    background-color: #DC5900;
-    grid-column: 1/3;
-    padding: 20px;
-}  
-article{
-    background-color: #AA6639;
-    height: 30em;
+header {
+  background-color: #dc5900;
+  grid-column: 1/3;
+  padding: 20px;
 }
-nav{
-    background-color: #C3601D;
+article {
+  background-color: #aa6639;
+  height: 30em;
 }
-footer{
-    text-align: center;
-    background-color: #DC5900;
-    grid-column: 1/3;
-    padding: 20px;
+nav {
+  background-color: #c3601d;
 }
-
-table{  
-    border-collapse: collapse;
-    margin: auto;
-    
+footer {
+  text-align: center;
+  background-color: #dc5900;
+  grid-column: 1/3;
+  padding: 20px;
 }
-
-td{
-    border: 1px solid orange;
-    text-align: center;
-    color: white;
+table {
+  border-collapse: collapse;
+  margin: auto;
 }
-
-th{
-    background-color: #C3601D ;
-    color: #786254;
-    text-align: center;
-    width: 100px;
-    border:1px solid orange;
+td {
+  border: 1px solid orange;
+  text-align: center;
+  color: white;
 }
-nav ul{
-    margin: auto;
-    list-style-type: none;
+th {
+  background-color: #c3601d;
+  color: #786254;
+  text-align: center;
+  width: 100px;
+  border: 1px solid orange;
 }
-nav ul li{
-    display: grid;
+nav ul {
+  margin: auto;
+  list-style-type: none;
+}
+nav ul li {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+nav ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+}
+nav ul li a:hover {
+  background-color: #786254;
+}
+@media (max-width: 400px) {
+  body {
+    font-size: 4vw;
+  }
+  main {
     grid-template-columns: 1fr;
-}
-nav ul li a{
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    padding: 1em;
-}
-nav ul li a:hover{
-    background-color: #786254;
-
-}
-@media (max-width:400px) {
-    body{
-        font-size: 4vw;
-    }
-    main{
-        grid-template-columns: 1fr;
-    }
-    header{
-        grid-column: 1;
-    }
-    footer{
-        grid-column: 1;
-    }
-    nav{
-        grid-row:2;
-    }
-
+  }
+  header {
+    grid-column: 1;
+  }
+  footer {
+    grid-column: 1;
+  }
+  nav {
+    grid-row: 2;
+  }
 }
