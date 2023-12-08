@@ -5,6 +5,10 @@ main{
     width:70%;
     margin:auto;
 }
+
+body{
+    background-color: #786254;
+}
 header{
     background-color: #DC5900;
     grid-column: 1/3;
@@ -18,7 +22,7 @@ nav{
     background-color: #C3601D;
 }
 footer{
-    background-color: #91674B;
+    background-color: #DC5900;
     grid-column: 1/3;
     padding: 20px;
 }
@@ -51,4 +55,8 @@ th{
         grid-row:2;
     }
 
+}
+
+footer{
+    background-color: #DC5900;
 }
